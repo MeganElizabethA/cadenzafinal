@@ -1,0 +1,8 @@
+{
+  "appId": "io.ionic.cadenzafinal",
+  "appName": "cadenzafinal",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

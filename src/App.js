@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import '@ionic/core/css/core.css';
+import '@ionic/core/css/ionic.bundle.css';
+import './styles.css';
+import { IonApp } from '@ionic/react';
+import React, { Component } from 'react';
+import Key from './Key';
+import Infopage from './infoPageIonic';
+import Mess from './mess';
+import Routes from './Routes';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+render() {
+     return (
+       <IonApp>
+         <Infopage/>
+         <Key/>
+         <Mess/>
+      <Routes/>
+      </IonApp>
+    );
 }
-
+}
 export default App;

@@ -1,0 +1,7 @@
+{
+  "name": "cadenzafinal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
