@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #21004F;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-logo {
+    color: #39ff14;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 16px;
+    font-size: 3.75rem;
+
+}
+
+.button {
+    background-color: #21004F;
+color: red;
+padding: 5px 15px;
+border-radius: 5px;
+outline: 0;
+box-shadow: 0px 2px 2px rgb(31, 30, 30);
+cursor: pointer;
+transition: ease background-color 250ms;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+:root,
+:root[mode="md"],
+:root[mode="ios"]
+{
+   font-family: 'Press Start 2P', cursive;
+  font-family: var(font-family) !important;
+}
